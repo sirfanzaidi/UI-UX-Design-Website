@@ -1,8 +1,8 @@
 import Image from "next/image";
 
-import Facbook from '../../public/image/Facebook.svg'
-import Twitter from '../../public/image/X.svg'
-import Feed from '../../public/image/Feed.svg'
+// import Facbook from '../../public/image/Facebook.svg'
+// import Twitter from '../../public/image/X.svg'
+// import Feed from '../../public/image/Feed.svg'
 
 export function Footer(){
     return(
@@ -19,9 +19,10 @@ export function Footer(){
                 </ul>
                 <p className="pt-[56px] text-center text-[14px] font-medium sm:pt-5">© Copyright 2024. Your Site. All rights reserved.</p>
             <div className="flex items-center justify-center gap-x-[56px] pt-[40px]">
-                <Image src={Facbook} alt="facebook logo" />
-                <Image src={Feed} alt="Feed" />
-                <Image src={Twitter} alt="facebook logo" />
+            <Image src="/Image/Facebook.svg" alt="facebook Logo" width={20} height={20} />
+            <Image src="/Image/Feed.svg" alt="Feed" width={20} height={20} />
+            <Image src="/Image/X.svg" alt="Twitter" width={20} height={20} />
+               
             </div>
 
         </div>
