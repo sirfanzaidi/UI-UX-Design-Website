@@ -1,4 +1,4 @@
-import Image from "next/image";
+
 import { Navbar } from "./Componnents/navbar";
 import { Hero } from "./Componnents/Hero";
 import { Features } from "./Componnents/Features";
